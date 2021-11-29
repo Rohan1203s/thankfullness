@@ -1,0 +1,155 @@
+img {
+  width: 100%;
+ height: auto;
+}
+div.bg {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGTOIFXPO_oHF9pB5E3f8hSYBKitv2qLcNj2npGCTQzOgWeIoiVYhy54Lo15KnUBQGzV0&usqp=CAU') repeat;
+  border: 5px solid #000;
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: rgb(113, 247, 213);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Brush Script MT", cursive;
+  color: rgb(255, 221, 0);
+}
+
+.indexBackground {
+  background: linear-gradient(to bottom, #a86032 0%, #ff9900 100%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+}
+
+html {
+  height: 100%;
+}
+
+a:hover {
+  background-color: yellow;
+}
+}
+
+.black {
+  color: rgba(36, 33, 33, 0.781);
+  text-align: center;
+  margin: 0px 300px 0px 300px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.homesetting {
+  text-align: center;
+  color: white;
+  margin: 25px 300px 75px 300px;
+}
+
+.image1 {
+  border: 1px solid rgb(214, 181, 181);
+  border-radius: 4px;
+  padding: 4px;
+  width: 40%;
+  border-radius: 50%;
+}
+
+.StepsBackground {
+  background: linear-gradient(to bottom, #d8a85f9d, #aaff94 100%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.aboutBackground {
+  background: linear-gradient(to bottom, #0f5fc79f, #c0391798 100%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.transparent {
+  opacity: 0.07;
+}
+
+div.absolute {
+  position: absolute;
+  bottom: 10px;
+  border: 3px solid rgba(162, 221, 177, 0.65);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  position: relative;
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #2296f5;
+  color: white;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
